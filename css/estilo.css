@@ -1,0 +1,149 @@
+*{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: arial;
+      text-align: justify;
+}
+
+.container{
+       background-color: white;
+       display: grid;
+       grid-template-columns: 40% 40% 20%;
+       grid-template-rows: 15vh auto 15vh;
+       grid-template-areas:"menu menu menu"
+                         "prin prin prin"
+                         "rodape rodape rodape";                
+}
+
+.menu{
+       background-color: #104A06;
+       grid-area: menu;
+       display: flex;
+}
+
+.logo{
+       width: 6%;
+       height: 80%;
+       margin-left: 5%;
+       margin-top: 0.7%;
+}
+
+.link1, .link2, .link3, .link4{
+       color: white;
+       width: 99%;
+       height: 100%;
+       margin-right: 3%;
+       display: flex;
+       justify-content: flex-end;
+       align-items: flex-end;
+
+} 
+
+.prin{
+       background-color: white;
+       grid-area: prin;
+}
+
+.titulo{
+       display: flex;
+       justify-content: center;
+       margin-top: 2%;
+}
+ 
+.introducao, .t_p, .rec{
+       margin-left: 5%;
+       margin-top: 2%;
+}
+
+.p1, .p6{
+       margin-top: 2%;
+       margin-left: 5%;
+       margin-right: 5%;
+}
+
+.p2, .p3, .p4, .p5, .p7, .p8{
+       margin-left: 5%;
+       margin-right: 5%;
+       margin-top: 1%;
+}
+
+.div0, .div1, .div2{
+       text-align: center;
+}
+
+.foto{
+       width: 30%;
+       margin-top: 2%;
+}
+
+.foto2{
+       width: 30%;
+}
+
+.oque{
+       margin-left: 5%;
+       margin-top: 2%;
+}
+
+.foto3{
+       width: 30%;
+       margin-top: 2%;
+}
+
+.funcao{
+       margin-left: 5%;
+       margin-top: 2%;
+}
+
+.ref{
+       margin-left: 5%;
+       margin-top: 2%;
+}
+
+ul{
+       margin-left: 5%;
+       margin-right: 5%;
+       margin-top: 2%;
+       list-style: none;
+}
+
+.li1, .li2, .li3, .li4, .li5, .li6, .li7, .li8, .li9, .li10, .li11, .li12, .li13, .li14, .li15, .li16, .li17, .li18, .li19, .li20, .li21, .li22, .li23, .li24{
+       margin-top: 2%;
+}
+
+.pla1, .pla2, .pla3, .pla4, .pla5, .pla6, .pla7, .pla8, .pla9, .pla10, .pla11, .pla12, .pla13, .pla14, .pla15, .pla16, .pla17, .pla18, .pla19, .pla20, .pla21, .pla22, .pla23, .pla24, .pla25, .pla26, .pla27, .pla28{
+       max-width: 250px;
+       width: auto;
+       margin-top: 2%;
+}
+
+.r1, .r2, .r3, .r4, .r5, .r6, .r7, .r8, .r10, .r11, .r12, .r13, .r14, .r15, .r16, .r18, .r19, .r20, .r21, .r22, .r23, .r25, .r26, .r27, .r28, .r29, .r30, .r31,  .r33, .r34,  .r35, .r36,  .r37, .r38{
+        margin-right: 5%;
+        margin-top: 1%;
+}
+
+.r9, .r17, .r24, .r32{
+        margin-top: 4%;
+        margin-right: 5%;
+}
+
+.vejamais, .saibamais{
+        margin-top: 2%;
+        margin-left: 5%;
+}
+
+.rodape{
+       background-color: #104A06;
+       grid-area: rodape;
+       margin-top: 2%;
+}
+
+.roda{
+       margin-top: 1%;
+}
+
+.roda, .roda1, .roda2{
+       margin-left: 5%;
+       color: white;
+}
